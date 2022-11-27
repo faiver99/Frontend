@@ -1,0 +1,210 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*----Navbar---- */
+.navbar{
+    background-color: rgb(33,37,41);
+    display: flex;
+    width: 100%;
+    height: 66px;
+    justify-content: space-around;
+    align-items: center;
+}
+.transition-all{
+    color:white
+}
+.title-navbar{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: serif;
+}
+.color-title-navbar{
+    color: #0e7171;
+}
+.btn-cart{
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+.count-shopping-cart{
+    background-color: red;
+    width: 15px;
+    display: inline-block;
+    height: 23px;
+    border-radius: 5px;
+}
+.logout{
+    height: 50%;
+    border-radius: 8px;
+    background-color: #0e7171;
+}
+
+/*----List products----- */
+.title-products{
+    font-weight: 700;
+    font-size: 36px;
+    color: #114848;
+}
+
+
+.container-products{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+}
+
+.container-product-flex{
+    width: 30%;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  box-shadow: 3px 3px 5px 5px #605a5a, 1px 3px 9px #706b6b;
+  border-radius: 8px;
+}
+.container-product-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-product-logo img{
+    width: initial;
+}
+
+.btn-agg-cart{
+    background-color: #0e7171;
+}
+
+/*---Vender---- */
+
+
+.title-shell{
+    font-size: 35px;
+    color: #114848;
+    text-align: center;
+    font-weight: 800;
+}
+.text-description{
+    height: 100px;
+}
+
+.btn-publicar{
+    background-color: #0e7171;
+}
+
+
+/*---Deatils Product-----*/
+.main-container-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-details{
+    font-size: 35px;
+}
+.container-deatails{
+    margin-top: 20px;
+    display: flex;
+    width: 85%;
+    padding: 0 2rem;
+    box-shadow: 3px 3px 5px 5px #605a5a, 1px 3px 9px #706b6b;
+    border-radius: 8px;
+}
+
+.img-details{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.img-details img {
+    width: initial;
+}
+.title-description{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0e7171;
+}
+.details-product{
+    width: 50%;
+    
+}
+.container-btn-details{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.btn-edit{
+    background-color: rgb(33,37,41);
+    width: 50%;
+}
+.btm-delete{
+    width: 50%;
+}
+
+/*-----Login------*/
+.main-container-login{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.title-login{
+    font-size: 35px;
+    color: #114848;
+}
+.form-login{
+    background-color: white;
+    box-shadow: 3px 3px 5px 5px #605a5a, 1px 3px 9px #706b6b;
+    border-radius: 10px;
+}
+.btn-login{
+    background-color: #114848;
+}
+
+.img-logo-login {
+    width: 40%;
+    height: 50%;
+    background-color: white;
+}
+.img-logo-login img {
+    border-radius: 10px;
+}
+.form-register{
+    box-shadow: 3px 3px 5px 5px #605a5a, 1px 3px 9px #706b6b;
+}
+.btn-register{
+    background-color: #114848;
+}
+
+@media(max-width: 1023px){
+    .img-logo-login{
+        display: none;
+    }
+}
+
+/*------Register-------*/
+.title-register{
+    font-size: 35px;
+    color: #114848;
+}
+.main-container-register{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row-reverse;
+    
+}
+.container-img-register{
+    width: 40%;
+    height: 50%;
+}
+.container-img-register img {
+    width: 100%;
+    height: 100%;
+}
+@media(max-width: 1023px){
+    .container-img-register{
+        display: none;
+    }
+}
